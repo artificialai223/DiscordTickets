@@ -27,19 +27,19 @@
  */
 
 module.exports = {
-	prefix: '-',
-	name: 'DiscordTickets',
-	activities: ['-new', 'with tickets', 'for new tickets'],
+	prefix: '%',
+	name: 'Tickets',
+	activities: ['%new', 'with tickets', 'for new tickets'],
 	activity_types: ['PLAYING', 'PLAYING', 'WATCHING'],
 	colour: '#009999',
 	err_colour: '#E74C3C',
 	cooldown: 3,
 
-	guild: '', // ID of your guild
-	staff_role: '', // ID of your Support Team role
+	guild: '748654141043245207', // ID of your guild
+	staff_role: '754447838414504056', // ID of your Support Team role
 
 	tickets: {
-		category: '', // ID of your tickets category
+		category: '754458123862933570', // ID of your tickets category
 		send_img: true,
 		ping: 'here',
 		text: `Hello there, {{ tag }}!
@@ -77,7 +77,7 @@ module.exports = {
 		},
 		discord: {
 			enabled: false,
-			channel: '' // ID of your log channel
+			channel: '754458300803842069' // ID of your log channel
 		}
 	},
 	
